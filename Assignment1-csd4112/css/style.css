@@ -1,0 +1,58 @@
+body {
+  background-color: #007d8c;
+}
+a:link, a:visited {
+  color: white;
+}
+
+.container {
+  position: relative;
+}
+
+a.donate:link, a.donate:visited {
+  color: white;
+  background-color: #D14900;
+}
+
+.row{
+  background-color: black;
+  height: 50px;
+  width:110%;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: "AvenirBook", sans-serif;
+}
+
+p{
+  font-family: "AvenirBook", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.dot {
+
+    display: inline-block;
+    width: 80%;
+    left:12%;
+    height: 230px;
+    background:#007d8c;
+    position: relative;
+    top:2250px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 0%;
+  }
+
+.dot:before {
+
+    content: "";
+    position: absolute;
+    left: 40%;
+    top: 90%;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid #007d8c;
+}
